@@ -17,3 +17,7 @@ Nothing out of the ordinary for the first day. Just a pesky itsy-bitsy off-by on
 ## Day 02
 
 Easy peasy.
+
+## Day 03
+
+Part 2 caught me a bit off-guard. After short deliberations with a person as non-programmer as me (that being myself) decided to go ad-hoc for the secodn part.
