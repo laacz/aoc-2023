@@ -21,3 +21,7 @@ Easy peasy.
 ## Day 03
 
 Part 2 caught me a bit off-guard. After short deliberations with a person as non-programmer as me (that being myself) decided to go ad-hoc for the secodn part.
+
+## Day 04
+
+First part was trivial, second - easy enough once you read all the requirements. I feel that there was some fancy algorithm intended to be used here, but I'll leave it to those who feel them.
