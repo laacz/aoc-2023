@@ -37,3 +37,12 @@ Oddly - parsing was the one that took the most time to write. But bruting is fin
 ## Day 07
 
 Easy enough. For the first part its just a matter of a sort. Second part was just a matter of iterating through all the non jocker cards in the hand and replacing jockers with each one of them, writing down which hand would be stronger.
+
+## Day 08
+
+First part - easy. Second part - tried to brute force first, didn't work. And it came to me unexpectedly easy - for each of the starting point there is a finite number of steps to be taken to get to the finish. 
+
+When I was close to finishing, it came to me once again. The realisation that it won't work, as after each 'last' step the next cycle is of different length. I finished it anyway, and to my absolute surprise and astonishment - answer was correct.
+
+So in effect, there were no clues in the problem that paths are always cycling at same length.
+ 
