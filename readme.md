@@ -33,3 +33,7 @@ Bruteforced my way out of it. Obviously could be made better by working with bui
 ## Day 06
 
 Oddly - parsing was the one that took the most time to write. But bruting is fine and quck.
+
+## Day 07
+
+Easy enough. For the first part its just a matter of a sort. Second part was just a matter of iterating through all the non jocker cards in the hand and replacing jockers with each one of them, writing down which hand would be stronger.
