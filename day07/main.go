@@ -11,9 +11,9 @@ import (
 type Hand struct {
 	cards string
 	bid   int
-	rank  int
 }
 
+// This is a type of hand
 const (
 	HighCard = iota
 	OnePair
@@ -24,6 +24,7 @@ const (
 	FiveOfAKind
 )
 
+// Type returns the type of the hand
 func (h Hand) Type() int {
 	cards := make(map[rune]int)
 	counts := make(map[int]string)
@@ -67,10 +68,11 @@ func (h Hand) Type() int {
 	return 0
 }
 
+// StrongestType returns the strongest possible hand given that there is a joker
 func (h Hand) StrongestType() int {
 	ret := 0
-	for c, _ := range strength {
-		hand := Hand{strings.Replace(h.cards, "0", string(c), -1), 0, 0}
+	for c := range strength {
+		hand := Hand{strings.Replace(h.cards, "0", string(c), -1), 0}
 		if hand.Type() > ret {
 			ret = hand.Type()
 		}
@@ -79,6 +81,7 @@ func (h Hand) StrongestType() int {
 	return ret
 }
 
+// strength is a map of card strengths
 var strength = map[rune]int{
 	'0': 0,
 	'2': 1,

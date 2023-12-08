@@ -27,7 +27,7 @@ func TestType(t *testing.T) {
 	}
 
 	for _, c := range cases {
-		h := Hand{c.in, 0, 0}
+		h := Hand{c.in, 0}
 		got := h.Type()
 		if got != c.want {
 			t.Errorf("Type(%q) == %q, want %q", c.in, got, c.want)
