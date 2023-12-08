@@ -25,3 +25,8 @@ Part 2 caught me a bit off-guard. After short deliberations with a person as non
 ## Day 04
 
 First part was trivial, second - easy enough once you read all the requirements. I feel that there was some fancy algorithm intended to be used here, but I'll leave it to those who feel them.
+
+## Day 05
+
+Bruteforced my way out of it. Obviously could be made better by working with building e2e map, then ranges and their overlaps/intersections, rather than iterating through all the seed numbers.
+
