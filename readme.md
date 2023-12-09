@@ -45,4 +45,9 @@ First part - easy. Second part - tried to brute force first, didn't work. And it
 When I was close to finishing, it came to me once again. The realisation that it won't work, as after each 'last' step the next cycle is of different length. I finished it anyway, and to my absolute surprise and astonishment - answer was correct.
 
 So in effect, there were no clues in the problem that paths are always cycling at same length.
- 
+
+## Day 09
+
+First time it did not work with the actual input, though tests passed. Checked output for each line - there it is, negative numbers. Replaced check for reduced slice sum being `>0` with `!=0` and it still did not work. After twenty minutes or so there it was - an edge case when all numbers summed up to zero. Fixed that and we're golden. 
+
+Second part was the same, except with heads instead of tails.
