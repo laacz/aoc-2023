@@ -51,3 +51,12 @@ So in effect, there were no clues in the problem that paths are always cycling a
 First time it did not work with the actual input, though tests passed. Checked output for each line - there it is, negative numbers. Replaced check for reduced slice sum being `>0` with `!=0` and it still did not work. After twenty minutes or so there it was - an edge case when all numbers summed up to zero. Fixed that and we're golden. 
 
 Second part was the same, except with heads instead of tails.
+
+## Day 10
+
+With off and on took almost whole day. No actional struggle with the first part where the hardest part was to build BFS'able tree. 
+
+As for the second part - at first I was baffled and could now think of anything. But, once I plotted it on screen, solution became obvious - find out if the given point is inside the polygon. Winding numbers and that's it.
+
+![alt text](https://github.com/laacz/aoc-2023/blob/main/day10/debug.png?raw=true)
+
