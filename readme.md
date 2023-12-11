@@ -60,3 +60,8 @@ As for the second part - at first I was baffled and could now think of anything.
 
 ![alt text](https://github.com/laacz/aoc-2023/blob/main/day10/debug.png?raw=true)
 
+## Day 11
+
+Easy. First part got solved via the straightforward approach of inserting doubled rows and columns. Then rewrote to store only cols and rows with their corresponding expansion factor.
+
+![alt text](https://github.com/laacz/aoc-2023/blob/main/day11/debug.png?raw=true)
