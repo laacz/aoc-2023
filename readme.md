@@ -69,3 +69,7 @@ Easy. First part got solved via the straightforward approach of inserting double
 ## Day 12
 
 Struggled with this one almost to a point where I'd just peek at other solutions. Part two required only some memoization.
+
+## Day 13
+
+Both parts were really nice ones. I overly optimized, as was almost sure that the second part would be something huge. Well. It was not.
